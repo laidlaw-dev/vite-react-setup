@@ -1,0 +1,19 @@
+{
+  "name": "vite-react-setup",
+  "version": "1.0.0",
+  "description": "CLI tool to install common npm packages for a Vite + React project",
+  "keywords": [
+    "vite",
+    "react",
+    "setup",
+    "cli",
+    "npm",
+    "packages"
+  ],
+  "author": "laidlaw_dev",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "vite-react-setup": "./index.js"
+  }
+}
