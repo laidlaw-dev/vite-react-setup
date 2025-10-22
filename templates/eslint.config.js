@@ -29,4 +29,10 @@ export default defineConfig([
       ],
     },
   },
+  {
+    files: ['**/*.test.{ts,tsx}'],
+    rules: {
+      '@typescript-eslint/no-explicit-any': 'off',
+    },
+  },
 ]);
