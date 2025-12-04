@@ -22,6 +22,7 @@ const dependencies = [
 const devDependencies = [
   "eslint-config-prettier",
   "prettier",
+  "prettier-plugin-tailwindcss",
   "@testing-library/jest-dom",
   "@testing-library/react",
   "@testing-library/user-event",
