@@ -4,6 +4,7 @@
 import { execSync } from "child_process";
 import { setupTemplates } from "./fileSetup.js";
 import { cleanupProject } from "./cleanup.js";
+import { updatePackageFile } from "./updateFiles.js";
 
 // Define your dependencies
 const dependencies = [
@@ -57,5 +58,6 @@ console.log("\n✅ All packages installed successfully!");
 const projectPath = process.cwd();
 setupTemplates(projectPath);
 cleanupProject(projectPath);
+updatePackageFile(projectPath);
 
 console.log("\n😀 Vite + React project setup complete!");

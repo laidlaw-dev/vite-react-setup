@@ -27,6 +27,7 @@ CLI to set up a Vite created React project with common packages and configuratio
 ## How to use locally
 
 - Clone this repo
+- Run npm i
 - In the terminal run npm link
 - Switch to the parent directory of your new app
 - Create React app using `npm create vite@latest [your_app_name] -- --template react-ts`

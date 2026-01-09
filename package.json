@@ -15,5 +15,8 @@
   "type": "module",
   "bin": {
     "vite-react-setup": "./index.js"
+  },
+  "dependencies": {
+    "jsonc-parser": "^3.3.1"
   }
 }
